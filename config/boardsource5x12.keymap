@@ -9,6 +9,10 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
+#define DEFAULT 0
+#define LOWER   1
+#define RAISE   2
+
 
 / {
     keymap {
@@ -27,7 +31,7 @@
                 &kp DEL      &none           &kp Q       &kp W    &kp F      &kp P       &kp B       &kp J   &kp L       &kp U         &kp Y        &kp APOS
                 &kp K_CUT    &kp ADJUST      &kp A       &kp R    &kp S      &kp T       &kp G       &kp M   &kp N       &kp E         &kp I        &kp O
                 &kp K_COPY   &kp RAIS        &kp Z       &kp X    &kp C      &kp D       &kp V       &kp K   &kp H       &kp DOT       &kp COMMA    &kp FSLH
-                &kp K_PASTE  &kp LCTL        &kp X       &kp LALT &kp LOWR   &kp BSPC    &kp LSHIFT  &kp SPACE &kp ENTER  &kp TAB      &kp MINUS    &kp SEMI
+                &kp K_PASTE  &kp LCTL        &kp X       &kp LALT &kp LOWeR   &kp BSPC    &kp LSHIFT  &kp SPACE &kp ENTER  &kp TAB      &kp MINUS    &kp SEMI
           
             >;
         };
