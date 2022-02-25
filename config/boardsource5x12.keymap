@@ -31,7 +31,7 @@
                 &kp DEL      &none           &kp Q       &kp W    &kp F      &kp P       &kp B       &kp J   &kp L       &kp U         &kp Y        &kp APOS
                 &kp K_CUT    &none      &kp A       &kp R    &kp S      &kp T       &kp G       &kp M   &kp N       &kp E         &kp I        &kp O
                 &kp K_COPY   &none        &kp Z       &kp X    &kp C      &kp D       &kp V       &kp K   &kp H       &kp DOT       &kp COMMA    &kp FSLH
-                &kp K_PASTE  &kp LCTL        &kp X       &kp LALT &mo LOWER 1   &kp BSPC    &kp LSHIFT  &kp SPACE &kp ENTER  &kp TAB      &kp MINUS    &kp SEMI
+                &kp K_PASTE  &kp LCTL        &kp X       &kp LALT &mo LOWER   &kp BSPC    &kp LSHIFT  &kp SPACE &kp ENTER  &kp TAB      &kp MINUS    &kp SEMI
           
             >;
         };
