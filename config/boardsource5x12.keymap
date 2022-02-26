@@ -62,9 +62,9 @@
             // |       |  F7  |  F8  |  F9  |  F10 |  F11 |  F12  |   #   |  |   |      |       |       |
             // |       |      |      |      |      |      |       |       |       |      |      |       |
             bindings = <
-                &kp ESC   &kp F2   &kp HOME   &kp HOME   &kp UP    &kp END  &kp C_VOLUME_UP    &kp F8          &kp F9          &kp F10      &kp F11          &kp F12
+                &kp ESC   &kp BT_CLR   &kp HOME   &kp HOME   &kp UP    &kp END  &kp C_VOLUME_UP    &kp F8          &kp F9          &kp F10      &kp F11          &kp F12
                 &kp TILDE &kp N1   &trans   &kp LEFT   &kp DOWN    &kp RIGHT  &kp C_VOLUME_DOWN    &kp N7          &kp N8          &kp N9       &kp N0           &kp DEL
-                &kp DEL   &kp F1   &kp F2   &kp F3   &kp F4    &kp F5          &kp F6    &kp K_MUTE       &kp EQUAL       &kp LBKT     &kp RBKT         &kp BSLH
+                &kp DEL   &kp F1   &kp F2   &kp F3   &kp F4    &kp F5          &kp F6    &kp C_MUTE       &kp EQUAL       &kp LBKT     &kp RBKT         &kp BSLH
                 &trans    &kp F7   &kp F8   &kp F9   &kp F10   &kp F11         &kp F12   &kp NON_US_HASH &kp NON_US_BSLH &trans       &trans           &trans
                 &trans   &trans   &trans   &trans    &mo 3   &trans             &trans      &trans    &trans          &trans          &trans       &trans
             >;
