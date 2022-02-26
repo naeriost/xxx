@@ -61,7 +61,7 @@
             // |       |      |      |      |      |      |       |       |       |      |      |       |
             bindings = <
                 &kp ESC   &kp F2   &kp HOME   &kp UP   &kp END    &kp F6  &kp F7    &kp F8          &kp F9          &kp F10      &kp F11          &kp F12
-                &kp TILDE &kp N1   &kp left   &kp LEFT   &kp DOWN    &kp RIGHT  &kp N6    &kp N7          &kp N8          &kp N9       &kp N0           &kp DEL
+                &kp TILDE &kp N1   &kp none   &kp LEFT   &kp DOWN    &kp RIGHT  &kp N6    &kp N7          &kp N8          &kp N9       &kp N0           &kp DEL
                 &kp DEL   &kp F1   &kp F2   &kp F3   &kp F4    &kp F5  &kp F6    &kp MINUS       &kp EQUAL       &kp LBKT     &kp RBKT         &kp BSLH
                 &trans    &kp F7   &kp F8   &kp F9   &kp F10   &kp F11 &kp F12   &kp NON_US_HASH &kp NON_US_BSLH &trans       &trans           &trans
                           &trans   &trans   &trans   &trans    &mo 3   &trans &trans &trans    &trans          &trans          &trans       &trans
