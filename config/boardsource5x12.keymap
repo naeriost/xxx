@@ -31,9 +31,9 @@
 
             bindings = <
                &kp DEL       &kp ESC    &kp Q       &kp W    &kp F      &kp P       &kp B              &kp J                  &kp L       &kp U         &kp Y        &kp APOS
-               &kp C_AC_CUT    &none              &kp A       &kp R    &kp S      &kp T       &kp G              &kp M                 &kp N       &kp E         &kp I        &kp O
-               &kp C_AC_COPY &none            &kp Z       &kp X      &kp C      &kp D       &kp V              &kp K                 &kp H       &kp COMMA       &kp DOT    &kp FSLH
-               &kp C_AC_PASTE  &kp LCTL        &kp X       &kp LALT   &mo LOWER   &kp BSPC    &kp LSHFT  &lt RAISE SPACE        &kp ENTER      &kp TAB      &kp MINUS    &kp SEMI
+               &kp LC(X)    &none              &kp A       &kp R    &kp S      &kp T       &kp G              &kp M                 &kp N       &kp E         &kp I        &kp O
+               &kp LC(C) &none            &kp Z       &kp X      &kp C      &kp D       &kp V              &kp K                 &kp H       &kp COMMA       &kp DOT    &kp FSLH
+               &kp LC(V)  &kp LCTL        &kp LC(S)       &kp LALT   &mo LOWER   &kp BSPC    &kp LSHFT  &lt RAISE SPACE        &kp ENTER      &kp TAB      &kp MINUS    &kp SEMI
           
             >;
         };
@@ -64,7 +64,7 @@
             bindings = <
                 &kp ESC   &none   &kp HOME   &kp HOME   &kp UP    &kp END  &kp C_VOLUME_UP    &kp F8          &kp F9          &kp F10      &kp F11          &kp F12
                 &kp TILDE &kp N1   &trans   &kp LEFT   &kp DOWN    &kp RIGHT  &kp C_VOLUME_DOWN    &kp N7          &kp N8          &kp N9       &kp N0           &kp DEL
-                &kp DEL   &kp F1   &kp F2   &kp F3   &kp F4    &kp F5          &kp F6    &kp C_MUTE       &kp EQUAL       &kp LBKT     &kp RBKT         &kp BSLH
+                &kp DEL   &kp F1   &kp F2   &kp LC(LEFT)   &kp F4    &kp   LC(RIGHT)        &kp F6    &kp C_MUTE       &kp EQUAL       &kp LBKT     &kp RBKT         &kp BSLH
                 &trans    &kp F7   &kp F8   &kp F9   &kp F10   &kp F11         &kp F12   &kp NON_US_HASH &kp NON_US_BSLH &trans       &trans           &trans
                 &trans   &trans   &trans   &trans    &mo 3   &trans             &trans      &trans    &trans          &trans          &trans       &trans
             >;
