@@ -4,6 +4,8 @@
  * SPDX-License-Identifier: MIT
  */
  
+CMAKE_MINIMUM_REQUIRED_VERSION
+ 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
@@ -63,9 +65,9 @@
             // |       |      |      |      |      |      |       |       | NEXT | Vol- | Vol+ | PLAY   |
             bindings = <
                 &kp ESC  &none  &none   &none   &kp LC(F)    &kp PRCNT       &none          &none             &none             &none    &kp LBKT          &kp RBKT
-                &none &none &kp AT   &kp CARET    &kp DLLR  &kp TILDE    &kp AMPS       &kp ASTRK            &kp HASH           &kp EXCL     &kp LPAR         &kp RPAR
-               &none     &none   &none   &none    &none    &none      &none         &none               &none        &none &none   &none        
-               &bt BT_CLR   &none   &none   &none    &none    &none      &none         &none               &none        &none &none   &none
+                &none  &none  &kp AT   &kp CARET    &kp DLLR  &kp TILDE    &kp AMPS       &kp ASTRK            &kp HASH           &kp EXCL     &kp LPAR         &kp RPAR
+               &none     &none   &none   &none    &none    &none      &none         &none               &none        &none  &none   &none        
+               &bt BT_CLR   &none   &none   &none    &none    &none      &none         &none               &none        &none  &none   &none
             >;
         };
 
